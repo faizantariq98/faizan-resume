@@ -6,7 +6,7 @@ const Sidebar = ({data}) => {
   return (
     <div className="bg-black flex flex-col content-between w-full sm:w-1/3 sm:fixed sm:justify-around text-white h-auto sm:h-screen">
         <div className=" text-white flex flex-col p-5 items-center">
-            <Image src="/images/profile.png" alt="" priority width={200} height={200} className="rounded-full mb-2"/>
+            <Image src="/images/Profile.jpg" alt="" priority width={200} height={200} className="rounded-full mb-2"/>
             <h1 className="mb-2 px-2 ">{name}</h1>
             <h2 className="mb-2 ">{role}</h2>
             <p className="mb-1 text-center">{education} </p>
